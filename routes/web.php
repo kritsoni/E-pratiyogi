@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/loggedin','TestController@Testindex');
+Route::get('/loggedin','HomeController@index');
 
 
