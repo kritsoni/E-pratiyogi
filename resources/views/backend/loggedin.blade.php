@@ -13,13 +13,9 @@
 <body>
 
 <div class="container">
-<<<<<<< HEAD:resources/views/backend/loggedin.blade.php
-  <button type="button" class="btn">CREATE TEST</button>
-  <button type="button" class="btn" id="golibrary">QUESTION LIBRARY</button>
-=======
+
   <button type="button" class="btn" id="createtest">CREATE TEST</button>
-  <button type="button" class="btn">QUESTION LIBRARY</button>
->>>>>>> d1e0a2d1a5dad5bfd08d4e6d5d895a6ca979c473:resources/views/loggedin.blade.php
+  <button type="button" class="btn" id="golibrary">QUESTION LIBRARY</button>
 
 </div>
 
