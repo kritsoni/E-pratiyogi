@@ -13,9 +13,7 @@
 <body>
 
 <div class="container">
-  <button type="button" class="btn" id="createtest">CREATE TEST</button>
-  <button type="button" class="btn">QUESTION LIBRARY</button>
-
+test bna bhai
 </div>
 
 </body>

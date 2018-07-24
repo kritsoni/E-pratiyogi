@@ -16,5 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('/loggedin','TestController@Testindex');
+Route::get('/createtest','TestController@createtest');
 
 
