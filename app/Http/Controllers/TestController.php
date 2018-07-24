@@ -8,7 +8,7 @@ class TestController extends Controller
 {
     public function createtest(){
 
-        return view('createtest');
+        return view('backend.createtest');
 
     }
      
