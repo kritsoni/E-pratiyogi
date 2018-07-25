@@ -4,17 +4,41 @@
    
    <!-- Outer container -->
    <div class="container">
-      <!-- First-Row -->
-       <div class="row">hey</div>
-       <!-- Second-Row -->
-       <div class="row">
+       <!-- Heading -->
+            <div class="row">
+               hey
+            </div>
+       <!-- Heading-end -->
 
-          <div class="row">hey</div>
-          <div class="row">hey</div>
-       
-       </div>  
-   
+       <!-- Heading-2 -->
+         <div class="row">
+
+            <!-- Buttons -->
+                <div class="row">
+                hey
+                </div>
+            <!-- Buttons-end -->
+
+            <!-- Fields -->
+                <div class="Fields">
+                    <form action="#">
+                        <div class="form-group fname">
+                            <label for="fname">First Name:</label>
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+                        <div class="form-group lname">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" class="form-control" id="lname">
+                        </div>   
+                    </form>
+                </div>
+            <!--Fields-end-->
+
+         </div>  
+      <!-- Heading2-end -->
+
    </div>
+   <!-- Outer container end -->
 
 
 @endsection

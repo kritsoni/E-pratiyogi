@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('EPYogi/reg','EPYogiController@makeReg');
+
+Route::get('EPYogi/login','EPYogiController@login');

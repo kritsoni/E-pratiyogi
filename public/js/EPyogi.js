@@ -1,0 +1,15 @@
+$(document).ready(function()
+{
+    $('#email').focusin(function(){
+        $(this).attr('placeholder','');
+     });
+     $('#email').focusout(function(){
+        $(this).attr('placeholder','E-mail');
+     });
+     $('#password').focusin(function(){
+        $(this).attr('placeholder','');
+     });
+     $('#password').focusout(function(){
+        $(this).attr('placeholder','Password');
+     });
+});

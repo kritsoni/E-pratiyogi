@@ -12,4 +12,9 @@ class EPYogiController extends Controller
     {
         return view('EPYogi.registration');
     }
+    public function login()
+    {
+        return view('EPYogi.login');
+    }
+    
 }
