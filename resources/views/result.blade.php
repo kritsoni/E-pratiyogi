@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body style='background:lavender;'>
-
-    <div style='text-align:center;font-size:50px;position:relative;top:400px;'>
+<body>
     Percentage is {{$result}}
-
-    </div>
+    code result {{$code_r}}
 </body>
 </html>
